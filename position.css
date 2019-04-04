@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <style>
+        a{
+            border: 3px red solid;
+            /*position: static;Bu komut statik pozisyon belirler elementimize*/
+            position: fixed; /*Elementimizin aynı yerde kalmasını sağlar */
+            bottom: 0;
+            left: 10px;
+        }
+        .a1{
+            position: relative;/*Normal pozisyonuna göre ayarlama yapabiliyoruz */
+            left: 150px;
+        }
+       
+    </style>
+    <body>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, nobis eligendi?</p>
+        <p>Velit magnam dolores odit voluptas mollitia? Ratione laboriosam tenetur dolorum recusandae.</p>
+        <p>Iure blanditiis repellat ad. Sapiente doloribus asperiores dolore eius cumque incidunt.</p>
+        <a href="#"> Link1 </a>
+        <a href="#" class="a1"> Link2 </a>
+        <ol>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Soluta, laboriosam optio?</li>
+            <li>Eligendi, dolore quaerat!</li>
+        </ol>
+
+    </body>
+</html>
