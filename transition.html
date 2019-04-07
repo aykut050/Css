@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transtions</title>
+</head>
+    <style>
+        ul{
+            border: 2px solid rgb(138, 65, 38) ;
+            width: 100px;
+            height: 100px;
+            background-color: thistle;
+        }
+        ul:hover{
+            width: 150px;
+            height:150px;
+            transition: width 2s,height 2s,transform 3s;
+            transition-delay: 3s;
+            transform: rotate(-90deg);
+            transition-duration: 1s;
+        }
+    </style>
+
+<body>
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Quo, fuga qui.</li>
+        <li>Ad, itaque soluta?</li>
+    </ul>
+</body>
+</html>
