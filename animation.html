@@ -8,13 +8,32 @@
 </head>
     <style>
        div{
+            height: 500px;
+            width: 300px;
             background-color: red;
             animation-name:boyutlandır;
-            animation-duration: 5s;
+            animation-iteration-count:infinite;
+            animation-duration: 4s;
+            /*animation-duration: 5s;*/
         }
-        @keyframes boyutlandır{
+        /*@keyframes boyutlandır{
            from{background-color: red;}
             to{background-color: rgb(235, 231, 20);}
+        }*/
+        @keyframes boyutlandır2{
+           from{width: 300px;}
+           to{height:350px;}
+        }
+        @keyframes boyutlandır{
+            0% {background-color:red;}
+            25% {background-color:green;}
+            50% {background-color:sandybrown;}
+            100%{background-color: royalblue;}
+           
+        }
+        div:hover{
+            animation-name: boyutlandır2;
+            animation-duration: 4s;
         }
     </style>
     <body>
