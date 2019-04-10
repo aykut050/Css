@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <style>
+        .a{
+            border: 3px yellow solid;
+            width:200px;
+            height: 100px;
+            display: inline-block;
+            text-align: center ;
+            background-color: blue;
+            margin: 5px;
+            color: antiquewhite;    
+            
+        }
+        .b{
+            display: flex;/* Flexbox formatına uygun olması içindir.*/
+            flex-direction: row;/* Kutuların nasıl dizileceğini belirler*/
+            flex-wrap: wrap;/*Sığmayan elementleri(Satıra veya sütuna) diğer satır veya sütuna geçirir*/
+            justify-content: center;/*Sıra veya sütunu ortalar*/
+            height: 400px;/*Bir satır 400px olarak ayarlanmış*/
+            align-items:center; 
+        }
+    </style>
+
+    <body>
+        <div class="b">
+            <div class="a">Lorem.</div>
+            <div class="a">Modi?</div>
+            <div class="a">Quae?</div>
+            <div class="a">Atque.</div>
+            <div class="a">Praesentium.</div>
+            <div class="a">Nesciunt.</div>
+            <div class="a">Ab?</div>
+            <div class="a">Aperiam?</div>
+            <div class="a">Itaque!</div>
+        </div>
+    </body>
+</html>
